@@ -35,6 +35,10 @@ p span.i2{
 	text-indent: -1em;
 }
 
+#epigraph footer{ 
+	text-align: end;
+}
+
 #evening footer{
 	margin-top: 2em;
 }
