@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-h3 {
+h3{
 	break-before: always;
 	margin: 2em 0;
 }
@@ -21,9 +21,9 @@ h3 {
 }
 
 [epub|type~="z3998:poem"] section > header{
-	margin: 1em 0;
-	break-before: avoid;
 	break-after: avoid;
+	break-before: avoid;
+	margin: 1em 0;
 }
 
 [epub|type~="z3998:poem"] header + p{
@@ -34,6 +34,7 @@ p span.i2{
 	padding-left: 3em;
 	text-indent: -1em;
 }
+
 #evening footer{
 	margin-top: 2em;
 }
@@ -43,13 +44,13 @@ p span.i2{
 }
 
 #et-dedit footer{
-	margin-top: 2em;
 	font-size: smaller;
+	margin-top: 2em;
 }
 
 #to-lo-bengula footer{
-	margin-top: 2em;
 	font-size: smaller;
+	margin-top: 2em;
 	text-align: center;
 }
 
