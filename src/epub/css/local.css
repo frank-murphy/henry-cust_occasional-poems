@@ -1,0 +1,63 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+h3 {
+	break-before: always;
+	margin: 2em 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] section > header{
+	margin: 1em 0;
+	break-before: avoid;
+	break-after: avoid;
+}
+
+[epub|type~="z3998:poem"] header + p{
+	margin: 1em 0;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+#evening footer{
+	margin-top: 2em;
+}
+
+#et-dedit header{
+	text-align: end;
+}
+
+#et-dedit footer{
+	margin-top: 2em;
+	font-size: smaller;
+}
+
+#to-lo-bengula footer{
+	margin-top: 2em;
+	font-size: smaller;
+	text-align: center;
+}
+
+#epitaph-on-a-dog p{
+	text-align: center;
+}
+
+#afterword footer{
+	margin-top: 2em;
+	text-align: end;
+}
